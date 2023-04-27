@@ -32,7 +32,167 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.header-ul {
+  height: 70px;
+  background-color: black;
+  margin: 0px;
+  text-align: right;
+
+}
+
+.header-ul li {
+  font-weight: bold;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  margin-right: 20px;
+}
+
+.header-ul2 {
+  text-align: left;
+}
+
+.header-ul li:hover {
+  color: orange;
+}
+
+.header-ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.signup {
+  background-color: antiquewhite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 370px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+/* .signup:hover{
+  color: rgb(211, 166, 53);
+} */
+
+.btn {
+  background-color: rgb(236, 228, 233);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+  width: 80px;
+  color: rgb(12, 12, 12);
+}
+
+.btn:hover {
+  background-color: #6178fb;
+
+}
+
+.input {
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+}
+
+.login {
+  background-color: antiquewhite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 260px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px lightblue;
+
+}
+
+.header-right {
+  text-align: right;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(11, 204, 140);
+  float: left;
+  margin: 18px;
+}
+
+#a :hover {
+  color: rgb(211, 166, 53);
+}
+
+.table {
+  border: 2px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  background-color: #ffffff49;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.add_task {
+  margin: 20px auto;
+  width: 90%;
+  border: 2px dashed;
+  background-color: #ffffff49;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.input-group {
+  padding: 20px;
+}
+
+th {
+  border: 2px solid;
+  padding: 5px 10px;
+  width: 150px;
+}
+
+td {
+  padding: 5px 10px;
+  width: 150px;
+  font-weight: 500;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  word-break: break-word;
+}
+
+.delete_btn {
+  background-color: #df2f0d;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+
+.update_option{
+  background-color: #ffffff49;
+  width: 150px;
+  text-align: center;
+}
+
+.text-capitalize{
+  background-color: #ffffff49;
+  padding: 5px 100px;
+  text-align: center;
+  margin: 5px auto;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
 }
